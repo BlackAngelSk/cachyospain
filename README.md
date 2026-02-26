@@ -37,27 +37,6 @@ sudo reboot
 
 **Solution:** [
 
-1 step 
-use in conslone/shell/(or what is name of thle conmmand line)  ** lsblk -f **
-to know that disk you have and there uuid (just ignote zram pls ) 
-
-2 step
-check the hooks for fun  ** lsblk -f ** cat /etc/mkinitcpio.conf | grep -A 5 HOOKS **
-then go to sudo nano /etc/mkinitcpio.conf and add to hookd with dont has # in fornt and add mdadm_udev 
-shud looks like this 
-"HOOKS=(base systemd autodetect microcode kms modconf block mdadm_udev keyboard sd-vconsole plymouth filesystems fsck)"
-or copy it i dont cake 
-
-2.5 shot of apsitne 
-
-3 then 
-regenere mkinitcpio
-" sudo mkinitcpio -P "
-somme in long there will be " Custom /etc/mdadm.conf file will be used in initramfs for assembling arrays. "
-
-4 reboot 
-
-5 
 
 ]
 

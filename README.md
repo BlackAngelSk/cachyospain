@@ -14,7 +14,8 @@ This document contains solutions and fixes for common CachyOS issues.
 ### Issue: [probrem with multiple monitors]
 **Problem:** [probrem with multiple monitors]
 
-**Solution:** [first when you start your system spam e to get to Systemd-boot menu n cmdline delete aplash and quiet and press f10
+**Solution:** [
+first when you start your system spam e to get to Systemd-boot menu n cmdline delete aplash and quiet and press f10
 
 after when you boot to sytem  you need go to shell amd 
 
@@ -35,9 +36,19 @@ sudo reboot
 ### Issue: [disk dipaer from mount]
 **Problem:** [title]
 
-**Solution:** [
+**Solution:** [ dowgrade
+1 step  sudo pacman -U https://archive.archlinux.org/packages/m/mdadm/mdadm-4.2-2-x86_64.pkg.tar.zst
 
+2 sudo mdadm --assemble --run /dev/md0 add yours disk here 
 
+3 cat /proc/mdstat
+  lsblk -f
+
+4  sudo mdadm --detail --scan | sudo tee /etc/mdadm.conf
+
+5  sudo mkinitcpio -P
+
+6 drink up mate 
 ]
 
 ---

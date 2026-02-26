@@ -31,9 +31,9 @@ sudo reboot
 
 ---
 
-## disk dipaer from mount
+## disk wanish from mount
 
-### Issue: [disk dipaer from mount]
+### Issue: [disk vanish from mount]
 **Problem:** [title]
 
 **Solution:** [ dowgrade

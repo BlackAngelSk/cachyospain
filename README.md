@@ -68,5 +68,5 @@ sudo reboot
 - [GitHub Issues](https://github.com/CachyOS/linux-cachyos/issues)
 
 ---
-i know why i dirnk apsinte
+i know why i dirnk apsintee
 **Last Updated:** February 26, 2026

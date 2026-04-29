@@ -52,6 +52,29 @@ sudo reboot
 ]
 
 ---
+## pacman syyu update wont work (ptg keys)
+
+### Issue: []
+**Problem:** [Description of the issue]
+error: cachyos-extra-v3: signature from "CachyOS <admin@cachyos.org>" is invalid
+
+error: cachyos: signature from "CachyOS <admin@cachyos.org>" is invalid
+
+error: failed to synchronize all databases (unexpected error)
+**Solution:** [Steps to fix]
+1 need to delete pacman cache 
+pacman -Scc
+
+2 delete stuff from bad server 
+rm -rf /var/lib/pacman/sync/*
+
+3 let sytem find now server 
+cachyos-rate-mirrors
+
+4 update 
+pacman -Syyu
+
+---
 ## this is temate for me 
 
 ### Issue: [Title]
@@ -60,7 +83,6 @@ sudo reboot
 **Solution:** [Steps to fix]
 
 ---
-
 ## Additional Resources
 
 - [CachyOS Official Website](https://cachyos.org/)
@@ -68,5 +90,5 @@ sudo reboot
 - [GitHub Issues](https://github.com/CachyOS/linux-cachyos/issues)
 
 ---
-i know why i dirnk apsintee
+and thats why i dirnk apsintee
 **Last Updated:** February 26, 2026

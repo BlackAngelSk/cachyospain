@@ -75,6 +75,17 @@ cachyos-rate-mirrors
 pacman -Syyu
 
 ---
+## how to update Visual Studio Code 
+
+just paste this to terminal 
+
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/visual-studio-code-bin.git
+cd visual-studio-code-bin
+makepkg -si
+
+---
+
 ## this is temate for me 
 
 ### Issue: [Title]
@@ -90,5 +101,5 @@ pacman -Syyu
 - [GitHub Issues](https://github.com/CachyOS/linux-cachyos/issues)
 
 ---
-and thats why i dirnk apsintee
-**Last Updated:** February 26, 2026
+and thats why i dirnk apsinte
+**Last Updated:** June 4, 2026

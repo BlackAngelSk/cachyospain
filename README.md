@@ -54,7 +54,7 @@ sudo reboot
 ---
 ## pacman syyu update wont work (ptg keys)
 
-### Issue: []
+### Issue: [pacman syyu update wont work]
 **Problem:** [Description of the issue]
 error: cachyos-extra-v3: signature from "CachyOS <admin@cachyos.org>" is invalid
 
@@ -86,7 +86,7 @@ makepkg -si
 
 ---
 
-## this is temate for me 
+## this is temate for me ignore it (i sad igore it you traktor )
 
 ### Issue: [Title]
 **Problem:** [Description of the issue]

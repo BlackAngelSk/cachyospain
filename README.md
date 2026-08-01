@@ -79,10 +79,26 @@ pacman -Syyu
 
 just paste this to terminal 
 
+```
 sudo pacman -S --needed base-devel git
 git clone https://aur.archlinux.org/visual-studio-code-bin.git
 cd visual-studio-code-bin
 makepkg -si
+```
+
+### How to copy just the lines to terminal in VS Code
+
+1. **Select the lines** you want to run (click and drag over the commands)
+2. **Right-click** on the selection
+3. Choose **"Copy"** (or press `Ctrl+C`)
+4. Click on your terminal panel and **paste** (`Ctrl+Shift+V` or right-click in terminal)
+
+**Or use the faster way:**
+1. Select the command lines in the editor
+2. Press `Ctrl+Shift+C` to copy them directly
+3. Paste into terminal with `Ctrl+Shift+V`
+
+**Tip:** In VS Code markdown preview (right-click README → "Open Preview"), code blocks have a **copy button** (📋) in the top-right corner that copies the entire block at once.
 
 ---
 
